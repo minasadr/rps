@@ -26,4 +26,6 @@ class Human(override val name: String) : Player {
 
         return peek[choice]!!
     }
+
+    override fun toString(): String = "Human[$name]"
 }

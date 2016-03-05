@@ -10,6 +10,6 @@ val PAPER = Gesture('p', "Paper")
 
 val SCISSORS = Gesture('s', "Scissors")
 
-private val MATRIX = mapOf(ROCK to SCISSORS, PAPER to ROCK, SCISSORS to PAPER)
+private val CLASSIC_MATRIX = mapOf(ROCK to SCISSORS, PAPER to ROCK, SCISSORS to PAPER)
 
-fun matrix(): Map<Gesture, Gesture> = MATRIX
+fun matrix(): Map<Gesture, Gesture> = CLASSIC_MATRIX   // why map og Gesture and Gesture?
